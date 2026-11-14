@@ -1,0 +1,1 @@
+{"name":"@lichess-org/chessground","version":"10.5.0-local.1","type":"module","main":"dist/chessground.js","exports":{".":"./dist/chessground.js"},"license":"GPL-3.0-or-later","description":"Locally bundled official Chessground sources with documented sync compatibility patch"}

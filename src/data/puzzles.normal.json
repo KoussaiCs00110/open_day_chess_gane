@@ -1,0 +1,374 @@
+[
+  {
+    "id": "00ERL",
+    "fen": "1r2R1k1/2Q4p/pp6/2p2n2/P2P1P1q/2P4P/2PB2b1/4R1K1 b - - 0 29",
+    "moves": [
+      "b8e8",
+      "e1e8"
+    ],
+    "rating": 729,
+    "theme": "mate mateIn1 middlegame oneMove",
+    "sourceGame": "https://lichess.org/Da4ZV4Yw/black#58",
+    "chapter": 0,
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "Find the most forcing move: a check, a capture, or a double threat.",
+      "ar": "ابحث عن أقوى نقلة: كش أو أخذ قطعة أو تهديد مزدوج."
+    },
+    "hint2": {
+      "en": "Look at the piece on e1.",
+      "ar": "تأمّل القطعة الموجودة على e1."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "001KR",
+    "fen": "6Qk/p1p3pp/4N3/1p6/2q1r1n1/2B5/PP4PP/3R1R1K b - - 0 28",
+    "moves": [
+      "h8g8",
+      "f1f8"
+    ],
+    "rating": 658,
+    "theme": "mate mateIn1 middlegame oneMove",
+    "sourceGame": "https://lichess.org/TaT1Zl7z/black#56",
+    "chapter": 1,
+    "modes": [
+      "easy",
+      "normal"
+    ],
+    "hint1": {
+      "en": "The King took a poisoned gift. Close the file behind him.",
+      "ar": "أغلق العمود خلف الملك."
+    },
+    "hint2": {
+      "en": "The rook on f1 can reach f8.",
+      "ar": "القطعة تبدأ من f1؛ تأمّل الطريق إلى f8."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "27K6c",
+    "fen": "4r1k1/pp4bp/6p1/8/8/4B1QP/PP1R2PK/3q4 b - - 5 35",
+    "moves": [
+      "d1d2",
+      "e3d2"
+    ],
+    "theme": "advantage endgame hangingPiece oneMove",
+    "rating": 739,
+    "chapter": 2,
+    "hint1": {
+      "en": "The flowers offer a rook with no guard.",
+      "ar": "الأزهار تهديك قلعة بلا حارس."
+    },
+    "hint2": {
+      "en": "Your bishop on e3 can take d2.",
+      "ar": "القطعة تبدأ من e3؛ تأمّل الطريق إلى d2."
+    },
+    "sourceGame": "https://lichess.org/3YLSZoPO/black#70",
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0",
+    "modes": [
+      "easy",
+      "normal"
+    ],
+    "whyWrong": {
+      "en": "That move misses the tactical threat. Look for a forcing check, capture, or double attack.",
+      "ar": "هذه النقلة تفوّت الفكرة التكتيكية. ابحث عن كش أو أخذ قطعة أو هجوم مزدوج."
+    }
+  },
+  {
+    "id": "004nd",
+    "fen": "3q2k1/2r5/pp3p1Q/2b1n3/P3N3/2P5/1P4PP/R6K b - - 0 24",
+    "moves": [
+      "c7d7",
+      "e4f6",
+      "d8f6",
+      "h6f6"
+    ],
+    "rating": 898,
+    "theme": "crushing fork middlegame short",
+    "sourceGame": "https://lichess.org/IajkZZBp/black#48",
+    "chapter": 3,
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "A horse can ask two important questions at once.",
+      "ar": "الحصان يهاجم قطعتين في قفزة واحدة."
+    },
+    "hint2": {
+      "en": "Leap with the knight on e4.",
+      "ar": "القطعة تبدأ من e4؛ تأمّل الطريق إلى f6."
+    },
+    "whyWrong": {
+      "en": "That move misses the tactical threat. Look for a forcing check, capture, or double attack.",
+      "ar": "هذه النقلة تفوّت الفكرة التكتيكية. ابحث عن كش أو أخذ قطعة أو هجوم مزدوج."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "002Z9",
+    "fen": "4r1k1/1p2R1p1/p2p2Pp/P1pP4/5q2/1R3p2/1P1Q3P/5B1K b - - 0 34",
+    "moves": [
+      "f4d2",
+      "e7e8"
+    ],
+    "rating": 1237,
+    "theme": "endgame hangingPiece master mate mateIn1 oneMove",
+    "sourceGame": "https://lichess.org/Ek4aENjD/black#68",
+    "chapter": 4,
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "A tower at the top is a wall the King cannot pass.",
+      "ar": "قلعة في الصف الأخير تمنع الملك من الهرب."
+    },
+    "hint2": {
+      "en": "Send the rook on e7 to e8.",
+      "ar": "القطعة تبدأ من e7؛ تأمّل الطريق إلى e8."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "005Bm",
+    "fen": "4rk2/p1q5/1p3Q1b/8/1p5N/2P1p3/P3P3/2K5 b - - 0 43",
+    "moves": [
+      "c7f7",
+      "h4g6",
+      "f8g8",
+      "f6h8"
+    ],
+    "rating": 1322,
+    "theme": "endgame mate mateIn2 pin short",
+    "sourceGame": "https://lichess.org/KKslCMev/black#86",
+    "chapter": 5,
+    "modes": [
+      "normal",
+      "hardcore"
+    ],
+    "hint1": {
+      "en": "A Queen cannot answer a horse while she is pinned to her King.",
+      "ar": "الوزير المسمّر أمام ملكه لا يستطيع الرد على قفزة الحصان."
+    },
+    "hint2": {
+      "en": "The knight on h4 can jump to g6 with check.",
+      "ar": "يمكن للحصان على h4 أن يقفز إلى g6 مع كش."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "00MFe",
+    "fen": "3r3k/p5pp/2r2q2/2p4Q/8/8/P5PP/3R1R1K b - - 5 29",
+    "moves": [
+      "d8d1",
+      "h5e8",
+      "f6f8",
+      "e8f8"
+    ],
+    "rating": 1384,
+    "theme": "endgame mate mateIn2 short",
+    "sourceGame": "https://lichess.org/d1J7UJ4D/black#58",
+    "chapter": 6,
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "A Queen can set the table twice. Give check along the eighth rank.",
+      "ar": "الوزير يرتّب المائدة مرتين. أعط كش على الصف الثامن."
+    },
+    "hint2": {
+      "en": "Your Queen on h5 can reach e8.",
+      "ar": "يمكن لوزيرك على h5 الوصول إلى e8."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "003mh",
+    "fen": "r4k1r/1pp2p2/p2p3p/3N4/3P2q1/8/PPP5/1K2Q1NR b - - 1 23",
+    "moves": [
+      "a8e8",
+      "e1e8",
+      "f8e8",
+      "d5f6",
+      "e8e7",
+      "f6g4"
+    ],
+    "rating": 1419,
+    "theme": "advantage attraction fork long middlegame sacrifice",
+    "sourceGame": "https://lichess.org/HSa4keKZ/black#46",
+    "chapter": 7,
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "Offer the Queen, then let the horse tell the real story.",
+      "ar": "ضحّ بالوزير ثم اترك الحصان يكمل الحكاية."
+    },
+    "hint2": {
+      "en": "Start with Qxe8+, then use the knight on d5.",
+      "ar": "القطعة تبدأ من e1؛ تأمّل الطريق إلى e8."
+    },
+    "whyWrong": {
+      "en": "That move misses the tactical threat. Look for a forcing check, capture, or double attack.",
+      "ar": "هذه النقلة تفوّت الفكرة التكتيكية. ابحث عن كش أو أخذ قطعة أو هجوم مزدوج."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "00O37",
+    "fen": "r1q1r1k1/1p3pp1/n1p4p/p1bpp2P/P3P3/2P2P2/1P1QBP2/R1BK3R b - - 3 23",
+    "moves": [
+      "c5f2",
+      "e2a6",
+      "b7a6",
+      "d2f2"
+    ],
+    "rating": 1300,
+    "theme": "advantage discoveredAttack middlegame short",
+    "sourceGame": "https://lichess.org/N2UAIb27/black#46",
+    "chapter": 8,
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "Find the most forcing move: a check, a capture, or a double threat.",
+      "ar": "ابحث عن أقوى نقلة: كش أو أخذ قطعة أو تهديد مزدوج."
+    },
+    "hint2": {
+      "en": "Look at the piece on e2.",
+      "ar": "تأمّل القطعة الموجودة على e2."
+    },
+    "whyWrong": {
+      "en": "That move misses the tactical threat. Look for a forcing check, capture, or double attack.",
+      "ar": "هذه النقلة تفوّت الفكرة التكتيكية. ابحث عن كش أو أخذ قطعة أو هجوم مزدوج."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "00P6j",
+    "fen": "r2n2k1/1bRq1rpp/1p6/3P4/p3Q3/B3P3/PP3PPP/3R2K1 b - - 0 20",
+    "moves": [
+      "d7c7",
+      "e4e8",
+      "f7f8",
+      "e8f8"
+    ],
+    "rating": 1326,
+    "theme": "kingsideAttack mate mateIn2 middlegame short",
+    "sourceGame": "https://lichess.org/vBpR18cI/black#40",
+    "chapter": 9,
+    "modes": [
+      "normal",
+      "hardcore"
+    ],
+    "hint1": {
+      "en": "Find the most forcing move: a check, a capture, or a double threat.",
+      "ar": "ابحث عن أقوى نقلة: كش أو أخذ قطعة أو تهديد مزدوج."
+    },
+    "hint2": {
+      "en": "Look at the piece on e4.",
+      "ar": "تأمّل القطعة الموجودة على e4."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "00JR7",
+    "fen": "r4rk1/pp2q1p1/2p1p2p/3nP1pP/3P2P1/2PQ1R2/PPB5/R5K1 b - - 1 23",
+    "moves": [
+      "f8f3",
+      "d3h7",
+      "g8f7",
+      "c2g6",
+      "f7f8",
+      "h7h8"
+    ],
+    "theme": "kingsideAttack long mate mateIn3 middlegame",
+    "rating": 1500,
+    "chapter": 10,
+    "hint1": {
+      "en": "Ask the Queen to whisper check; a bishop opens the last door.",
+      "ar": "ابدأ بكش من الوزير ثم الفيل ثم الوزير."
+    },
+    "hint2": {
+      "en": "Play Qh7+, then Bg6+, then Qh8 mate.",
+      "ar": "القطعة تبدأ من d3؛ تأمّل الطريق إلى h7."
+    },
+    "sourceGame": "https://lichess.org/jSoa2xnc/black#46",
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0",
+    "modes": [
+      "normal"
+    ],
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    }
+  },
+  {
+    "id": "001w5",
+    "fen": "1rb2rk1/q5P1/4p2p/3p3p/3P1P2/2P5/2QK3P/3R2R1 b - - 0 29",
+    "moves": [
+      "f8f7",
+      "c2h7",
+      "g8h7",
+      "g7g8q"
+    ],
+    "rating": 1039,
+    "theme": "advancedPawn attraction mate mateIn2 middlegame promotion short",
+    "sourceGame": "https://lichess.org/0e1vxAEn/black#58",
+    "chapter": "bonus",
+    "modes": [
+      "normal"
+    ],
+    "hint1": {
+      "en": "A pawn dreams of wearing a crown. First, lure the King.",
+      "ar": "البيدق يحلم بتاج. اجذب الملك أولاً."
+    },
+    "hint2": {
+      "en": "Play Qxh7+, then promote the pawn on g7.",
+      "ar": "القطعة تبدأ من c2؛ تأمّل الطريق إلى h7."
+    },
+    "whyWrong": {
+      "en": "That move misses the mating plan. Keep the red King’s escape squares covered.",
+      "ar": "هذه النقلة تفوّت خطة المات. راقب مربعات هروب الملك الأحمر."
+    },
+    "source": "https://database.lichess.org/#puzzles",
+    "license": "CC0-1.0"
+  }
+]

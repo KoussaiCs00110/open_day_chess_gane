@@ -1,0 +1,266 @@
+/* Layout belongs to the scene; squares and piece positions belong to Chessground. */
+.puzzle-screen {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 14px;
+  height: 100%;
+  min-height: 0;
+  padding: 16px 28px 88px;
+}
+
+.board-stage {
+  position: relative;
+  display: grid;
+  place-items: stretch center;
+  min-width: 0;
+  min-height: 0;
+  isolation: isolate;
+}
+
+.board-column {
+  position: relative;
+  z-index: 4;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 8px;
+  width: min(100%, 760px);
+  max-width: 66%;
+  min-width: 0;
+  min-height: 0;
+}
+
+.puzzle-heading {
+  position: static;
+  width: 100%;
+  text-align: center;
+  pointer-events: none;
+}
+
+.puzzle-heading .eyebrow {
+  justify-content: center;
+  gap: 8px;
+  font-size: 18px;
+  line-height: 1.35;
+  letter-spacing: 1px;
+}
+
+.puzzle-heading h1 {
+  margin: 5px 0 7px;
+  font-size: clamp(22px, 2.3vw, 32px);
+  line-height: 1.2;
+}
+
+.board-caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 12px;
+  min-height: 28px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.board-caption strong { font-weight: 400; color: #335a48; }
+.board-objective { color: #72582f; }
+.turn-dot { width: 9px; height: 9px; border: 2px solid #557a64; border-radius: 50%; background: #f4e8c9; }
+
+.board-slot {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.board-frame {
+  position: relative;
+  flex: none;
+  box-sizing: border-box;
+  width: min(100%, 560px);
+  aspect-ratio: 1;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 24px;
+  border: 0;
+  border-radius: 7px;
+  background: #425f4f;
+  box-shadow: inset 0 0 0 1px #bfa569, inset 0 0 0 5px #344b40, 0 5px 0 #293f35, 0 12px 24px #314b3420;
+}
+
+.board-frame::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid #c4ac743d;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+:is(#chessboard,.mirror-board).cg-wrap {
+  box-sizing: content-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  direction: ltr;
+  touch-action: none;
+  isolation: isolate;
+}
+
+:is(#chessboard,.mirror-board) cg-container { left: 0; top: 0; }
+:is(#chessboard,.mirror-board) cg-board {
+  background: url('./board.svg') center / 100% 100% no-repeat;
+  box-shadow: 0 0 0 1px #223d2f80;
+}
+
+/* Never scale the positioned <piece> nodes or let artwork enter another rank. */
+:is(#chessboard,.mirror-board) piece { background: none; }
+:is(#chessboard,.mirror-board) piece > .piece-art {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  opacity: 1;
+  pointer-events: none;
+  transform-origin: 50% 85%;
+}
+:is(#chessboard,.mirror-board) piece.ghost { opacity: .28; }
+:is(#chessboard,.mirror-board) piece.dragging { z-index: 11 !important; }
+:is(#chessboard,.mirror-board) piece.piece-moving { z-index: 8; }
+:is(#chessboard,.mirror-board) square.last-move { background: #e7c46155; }
+:is(#chessboard,.mirror-board) square.selected { background: #ebc45777; box-shadow: inset 0 0 0 3px #8e6c28; }
+:is(#chessboard,.mirror-board) square.move-dest { background: radial-gradient(circle, #254d3c70 0 17%, transparent 19%); }
+:is(#chessboard,.mirror-board) square.move-dest.oc { background: transparent; box-shadow: inset 0 0 0 5px #284e3c80; }
+:is(#chessboard,.mirror-board) square.check { background: radial-gradient(ellipse, #c44849cc, #c4484933 65%, transparent); }
+:is(#chessboard,.mirror-board) .cg-shapes { opacity: 1; z-index: 6; }
+:is(#chessboard,.mirror-board) .cg-custom-svgs { z-index: 9; }
+
+/* Coordinates share exactly the board's eight tracks, inside the frame gutter. */
+:is(#chessboard,.mirror-board) coords {
+  opacity: 1;
+  font: 18px/1 TeaUI, sans-serif;
+  color: #f2e6c3;
+  text-shadow: none;
+}
+:is(#chessboard,.mirror-board) coords.ranks,
+:is(#chessboard,.mirror-board) coords.ranks.left {
+  inset: 0 auto auto -23px;
+  width: 22px;
+  height: 100%;
+  flex-flow: column-reverse;
+  align-items: stretch;
+}
+:is(#chessboard,.mirror-board) coords.ranks.black { flex-flow: column; }
+:is(#chessboard,.mirror-board) coords.files {
+  inset: auto auto -23px 0;
+  width: 100%;
+  height: 22px;
+  flex-flow: row;
+  text-transform: lowercase;
+}
+:is(#chessboard,.mirror-board) coords.files.black { flex-flow: row-reverse; }
+:is(#chessboard,.mirror-board) coords coord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  transform: none;
+}
+
+.board-help { margin: 0; color: #52644f; font-size: 18px; line-height: 1.4; text-align: center; }
+.board-stage > .actor { z-index: 1; width: 24%; height: 83%; bottom: 0; pointer-events: none; }
+.board-stage > .actor-left { left: -1%; }
+.board-stage > .actor-right { right: -1%; }
+.puzzle-screen .speech-bubble { display: none; }
+
+.puzzle-controls {
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  min-height: 70px;
+}
+.puzzle-controls > .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 8px 16px;
+  border: 1px solid #b5a17388;
+  border-radius: 8px;
+  background: #f7efd9e8;
+}
+.puzzle-controls > .button > span { display: flex; flex-direction: column; gap: 4px; text-align: start; }
+.puzzle-controls > .button small { font-size: 18px; color: #606b4f; }
+.power-button > .art { width: 44px; height: 48px; }
+.control-cat { display: block; width: 44px; height: 48px; overflow: hidden; }
+.control-cat > .art { height: 68px; margin-top: -8px; }
+.puzzle-controls > .legend-button { flex: 0 0 56px; min-width: 56px; min-height: 56px; width: 56px; padding: 6px; border-radius: 50%; font: 27px Story; }
+.practice-label { max-width: 100%; padding: 4px 12px; font-size: 18px; line-height: 1.4; color: #52644f; text-align: center; }
+
+@media (max-width: 1100px) {
+  .puzzle-screen { padding: 12px 20px 84px; gap: 10px; }
+  .board-column { max-width: 72%; }
+  .board-stage > .actor { width: 22%; height: 72%; opacity: .9; }
+  .board-stage > .actor-left { left: -4%; }
+  .board-stage > .actor-right { right: -4%; }
+  .puzzle-controls > .button { padding: 6px 12px; }
+  .puzzle-controls > .button small { display: none; }
+}
+
+@media (max-width: 700px) {
+  .puzzle-screen { padding: 8px 12px 82px; gap: 8px; }
+  .puzzle-screen .game-hud { height: 76px; }
+  .board-column { max-width: 100%; width: 100%; gap: 6px; }
+  .board-stage > .actor { display: none; }
+  .puzzle-heading .eyebrow { font-size: 18px; letter-spacing: 0; }
+  .puzzle-heading .eyebrow i { display: none; }
+  .puzzle-heading h1 { margin: 3px 0 5px; font-size: 22px; }
+  .board-caption { gap: 5px 9px; font-size: 18px; }
+  .board-objective { display: none; }
+  .board-help { font-size: 18px; line-height: 1.3; }
+  .puzzle-controls { gap: 6px; min-height: 60px; flex-wrap: nowrap; }
+  .puzzle-controls > .button { flex: 1; flex-direction: column; gap: 2px; min-width: 0; min-height: 64px; padding: 6px 3px; font-size: 18px; }
+  .puzzle-controls > .button > span { display: block; text-align: center; }
+  .power-button > .art { width: 35px; height: 32px; }
+  .control-cat { width: 35px; height: 32px; }
+  .control-cat > .art { height: 47px; margin-top: -6px; }
+  .puzzle-controls > .legend-button { flex: 0 0 56px; width: 56px; height: 56px; min-height: 56px; }
+  .practice-label { flex: 1; font-size: 18px; }
+}
+
+@media (max-height: 520px) and (orientation: landscape) {
+  .puzzle-screen { padding: 5px 14px 8px; gap: 4px; }
+  .puzzle-screen .game-hud { height: 40px; }
+  .board-column { max-width: 64%; gap: 3px; }
+  .puzzle-heading .eyebrow { display: none; }
+  .puzzle-heading h1 { font-size: 20px; margin: 0 0 3px; }
+  .board-caption { min-height: 22px; font-size: 18px; }
+  .board-objective { display: none; }
+  .board-help { display: none; }
+  .puzzle-controls { min-height: 56px; padding-inline-end: 270px; justify-content: flex-start; flex-wrap: nowrap; gap: 6px; }
+  .puzzle-controls > .button { min-height: 56px; padding: 4px 8px; gap: 6px; }
+  .power-button > .art { width: 28px; height: 34px; }
+  .control-cat { width: 30px; height: 34px; }
+  .control-cat > .art { height: 49px; }
+  .puzzle-controls > .button small { display: none; }
+  .practice-label { font-size: 18px; }
+}
+/* The empty board is visible during reveal; the native renderer mounts afterwards. */
+:is(#chessboard,.mirror-board) { background: url('./board.svg') center / 100% 100% no-repeat; }
+@media (max-width: 700px) {
+  .tutorial-puzzle .puzzle-heading .eyebrow { display: none; }
+}

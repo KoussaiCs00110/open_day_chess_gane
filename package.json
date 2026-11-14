@@ -1,0 +1,29 @@
+{
+  "name": "alice-looking-glass-chess",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/offline.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:browser": "node tests/browser.mjs",
+    "test:core": "vitest run",
+    "test:all": "npm run validate-puzzles && npm test && npm run build && npm run test:browser",
+    "validate-puzzles": "node scripts/validate-puzzles.js"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "chess.js": "file:vendor/chess.js",
+    "@lichess-org/chessground": "file:vendor/chessground"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0",
+    "@playwright/test": "^1.55.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

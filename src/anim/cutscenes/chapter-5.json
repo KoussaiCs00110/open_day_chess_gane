@@ -1,0 +1,49 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "humpty",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "humpty",
+      "emotion": "talk"
+    },
+    {
+      "type": "move",
+      "actor": "humpty",
+      "rotation": -8,
+      "x": -12,
+      "duration": 0.4
+    },
+    {
+      "type": "move",
+      "actor": "humpty",
+      "rotation": 7,
+      "x": 6,
+      "duration": 0.4
+    },
+    {
+      "type": "say",
+      "actor": "humpty",
+      "key": "chapters.5.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "humpty",
+      "key": "chapters.5.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "duration": "reaction",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "cat",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "redQueen",
+      "from": "right"
+    },
+    {
+      "type": "say",
+      "actor": "cat",
+      "key": "mistakeCat"
+    },
+    {
+      "type": "emote",
+      "actor": "redQueen",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "actor": "redQueen",
+      "key": "mistakeQueen"
+    },
+    {
+      "type": "shake"
+    }
+  ]
+}

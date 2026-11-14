@@ -1,0 +1,27 @@
+{
+  "duration": "reaction",
+  "steps": [
+    {
+      "type": "emote",
+      "actor": "whiteQueen",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "hardcore.flourish",
+      "duration": 0.7
+    },
+    {
+      "type": "move",
+      "actor": "redQueen",
+      "x": 60,
+      "rotation": 12,
+      "duration": 0.25
+    },
+    {
+      "type": "sfx",
+      "name": "card"
+    }
+  ]
+}

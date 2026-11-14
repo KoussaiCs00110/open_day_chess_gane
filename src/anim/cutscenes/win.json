@@ -1,0 +1,90 @@
+{
+  "duration": "win",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "whiteQueen",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "redQueen",
+      "from": "right"
+    },
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "win.0"
+    },
+    {
+      "type": "emote",
+      "actor": "redQueen",
+      "emotion": "scared"
+    },
+    {
+      "type": "move",
+      "actor": "redQueen",
+      "part": ".crown",
+      "x": 100,
+      "y": 240,
+      "rotation": 430,
+      "duration": 0.7
+    },
+    {
+      "type": "say",
+      "actor": "redQueen",
+      "key": "win.1"
+    },
+    {
+      "type": "exit",
+      "actor": "redQueen",
+      "to": "right"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "win.2"
+    },
+    {
+      "type": "move",
+      "actor": "whiteQueen",
+      "x": 80,
+      "duration": 0.5
+    },
+    {
+      "type": "enter",
+      "actor": "alice",
+      "part": ".alice-crown",
+      "from": "above"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "win.3"
+    },
+    {
+      "type": "sfx",
+      "name": "win"
+    },
+    {
+      "type": "say",
+      "actor": "alice",
+      "key": "win.4"
+    },
+    {
+      "type": "camera",
+      "scale": 1.04,
+      "duration": 0.6
+    }
+  ]
+}

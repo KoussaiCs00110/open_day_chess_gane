@@ -1,0 +1,288 @@
+{
+  "en": {
+    "intro": [
+      "Curiouser and curiouser… the mirror is a doorway!",
+      "Alice! The Red Queen is taking every square.",
+      "Find the moves for White. Ten little victories will save our kingdom."
+    ],
+    "win": [
+      "Checkmate! Your game is over, Your Majesty.",
+      "My crown! My perfectly magnificent crown!",
+      "A brave mind deserves a crown of its own.",
+      "Rise, Queen Alice of the Looking-Glass.",
+      "And that is how a little curiosity changed a whole kingdom."
+    ],
+    "lose": [
+      "OFF WITH HER HEAD!",
+      "Perhaps we shall try a different move next time."
+    ],
+    "mistakes": [
+      [
+        "Even a grin sometimes goes the wrong way.",
+        "One cup cracked. Do look before you leap!"
+      ],
+      [
+        "The board is a riddle, not a race.",
+        "Two cups! My patience is wearing very thin!"
+      ],
+      [
+        "We can always begin another adventure.",
+        "OFF WITH HER HEAD!"
+      ]
+    ],
+    "chapters": {
+      "1": {
+        "title": "Through the Mirror",
+        "intro": [
+          "The mirror has made a muddle of everything!",
+          "Find one checkmate to open the very first door."
+        ],
+        "success": "A splendid first step, Alice!",
+        "failure": "The looking-glass likes a second look."
+      },
+      "2": {
+        "title": "Garden of Live Flowers",
+        "intro": [
+          "We are not weeds. We are very well-read flowers.",
+          "That red rook has wandered off without a friend. Take it!"
+        ],
+        "success": "A bouquet of brilliant moves!",
+        "failure": "Even a rose must look before it leaps."
+      },
+      "3": {
+        "title": "Tweedledum & Tweedledee",
+        "intro": [
+          "We agree about everything. Except everything!",
+          "Can your knight trouble two red pieces at once?"
+        ],
+        "success": "Two problems, one delightful horse.",
+        "failure": "A fork is for two. Try another square."
+      },
+      "4": {
+        "title": "The White Rabbit’s Watch",
+        "intro": [
+          "Oh my ears! We are late for a checkmate!",
+          "The King has only one last hiding place. Close it."
+        ],
+        "success": "Right on time. Well, almost!",
+        "failure": "Tick, tock. Take a breath and look again."
+      },
+      "5": {
+        "title": "Humpty Dumpty",
+        "intro": [
+          "When I use a piece, it means exactly what I choose.",
+          "A pinned Queen cannot leave her King. Let your knight dance."
+        ],
+        "success": "That move is worth staying on the wall for.",
+        "failure": "Perhaps that square meant something else."
+      },
+      "6": {
+        "title": "The Mad Hatter’s Tea Party",
+        "intro": [
+          "No room! No room! Unless you have a checkmate.",
+          "Two white moves, one red reply. More tea?"
+        ],
+        "success": "A most excellent serving of checkmate!",
+        "failure": "You have spilt a little logic. Pour again."
+      },
+      "7": {
+        "title": "The White Knight",
+        "intro": [
+          "I am very good at falling off. Moving is harder.",
+          "A brave Queen makes room for a clever knight."
+        ],
+        "success": "I meant to do that. All of it. Probably.",
+        "failure": "A horse can land on a better square."
+      },
+      "8": {
+        "title": "The Caterpillar",
+        "intro": [
+          "Who. Are. You? A discoverer, perhaps?",
+          "A brave rook sets a trap. Then a knight uncovers the bishop behind it."
+        ],
+        "success": "Ah. Now you see what was always there.",
+        "failure": "Look through the smoke, not at it."
+      },
+      "9": {
+        "title": "The Red Queen’s Court",
+        "intro": [
+          "All ways here belong to ME!",
+          "A knight checks first. Your Queen has the final word."
+        ],
+        "success": "The court has fallen beautifully quiet.",
+        "failure": "The Queen is loud. Your next move can be clever."
+      },
+      "10": {
+        "title": "The Jabberwock",
+        "intro": [
+          "Beware the jaws that bite, the claws that catch!",
+          "Three white moves. Keep giving check, and write the ending."
+        ],
+        "success": "Checkmate! The looking-glass kingdom is yours.",
+        "failure": "Even a dragon has only so many hiding places."
+      }
+    },
+    "hardcore": {
+      "taunts": [
+        "Oh, I am only watching. Dear me.",
+        "The watch is burning, and I have nowhere to be.",
+        "A hint? The Queen would never forgive me."
+      ],
+      "win": [
+        "Whose head was that, exactly?",
+        "I bow to the new Queen of the Looking-Glass.",
+        "A crown of gold for a flawless adventure."
+      ],
+      "flourish": "Off with their head!"
+    },
+    "easy": {
+      "encouragement": [
+        "Take your time, curious Alice. I am right here.",
+        "Every clever Queen began with one small move."
+      ]
+    }
+  },
+  "ar": {
+    "intro": [
+      "يا للعجب… المرآة باب إلى عالم آخر!",
+      "أليس! الملكة الحمراء تستولي على كل المربعات.",
+      "جدي نقلات الأبيض. عشرة انتصارات صغيرة تنقذ مملكتنا."
+    ],
+    "win": [
+      "كش مات! انتهت لعبتك يا جلالة الملكة.",
+      "تاجي! تاجي الرائع!",
+      "العقل الشجاع يستحق تاجاً خاصاً به.",
+      "انهضي يا أليس، ملكة عالم المرآة.",
+      "وهكذا غيّر قليل من الفضول مملكة كاملة."
+    ],
+    "lose": [
+      "اقطعوا رأسها!",
+      "ربما نجرب نقلة أخرى في المرة القادمة."
+    ],
+    "mistakes": [
+      [
+        "حتى الابتسامة تخطئ الطريق أحياناً.",
+        "تصدّع كوب واحد. انظري قبل أن تقفزي!"
+      ],
+      [
+        "الرقعة لغز وليست سباقاً.",
+        "كوبان! صبري بدأ ينفد!"
+      ],
+      [
+        "يمكننا أن نبدأ مغامرة جديدة دائماً.",
+        "اقطعوا رأسها!"
+      ]
+    ],
+    "chapters": {
+      "1": {
+        "title": "عبر المرآة",
+        "intro": [
+          "المرآة جعلت كل شيء غريباً!",
+          "جد كش مات بنقلة واحدة لفتح الباب الأول."
+        ],
+        "success": "بداية رائعة يا أليس!",
+        "failure": "المرآة تحب نظرة ثانية."
+      },
+      "2": {
+        "title": "حديقة الأزهار الحية",
+        "intro": [
+          "نحن أزهار مثقفة ولسنا أعشاباً!",
+          "القلعة الحمراء وحدها بلا حارس. خذها!"
+        ],
+        "success": "باقة من النقلات الرائعة!",
+        "failure": "حتى الوردة تنظر قبل أن تقفز."
+      },
+      "3": {
+        "title": "تويدلدم وتويدلدي",
+        "intro": [
+          "نتفق على كل شيء إلا كل شيء!",
+          "هل يستطيع حصانك مهاجمة قطعتين معاً؟"
+        ],
+        "success": "مشكلتان وحصان ذكي واحد.",
+        "failure": "الشوكة تهدد اثنين. جربي مربعاً آخر."
+      },
+      "4": {
+        "title": "ساعة الأرنب الأبيض",
+        "intro": [
+          "يا أذنيّ! لقد تأخرنا عن كش مات!",
+          "للملك مخبأ أخير. أغلقه."
+        ],
+        "success": "في الوقت المناسب تماماً!",
+        "failure": "تيك تاك. تنفّسي وانظري مجدداً."
+      },
+      "5": {
+        "title": "هامبتي دامبتي",
+        "intro": [
+          "كل قطعة تعني ما أريده أنا!",
+          "الوزير المسمّر لا يستطيع ترك ملكه. دع الحصان يقفز."
+        ],
+        "success": "نقلة تستحق البقاء على الجدار.",
+        "failure": "ربما قصدت تلك القطعة مربعاً آخر."
+      },
+      "6": {
+        "title": "حفلة شاي صانع القبعات",
+        "intro": [
+          "لا مكان هنا إلا لمن يجد كش مات!",
+          "نقلتان للأبيض ورد واحد للأحمر. هل تريد الشاي؟"
+        ],
+        "success": "يا لها من كش مات رائعة!",
+        "failure": "انسكب قليل من المنطق. جربي ثانية."
+      },
+      "7": {
+        "title": "الفارس الأبيض",
+        "intro": [
+          "أنا بارع في السقوط عن الحصان!",
+          "وزير شجاع يفسح الطريق لحصان ذكي."
+        ],
+        "success": "كنت أقصد ذلك… على الأرجح.",
+        "failure": "يمكن للحصان أن يهبط في مربع أفضل."
+      },
+      "8": {
+        "title": "اليرقة الحكيمة",
+        "intro": [
+          "من أنت؟ ربما مكتشف؟",
+          "القلعة الشجاعة تضع فخاً ثم يكشف الحصان هجوم الفيل خلفه."
+        ],
+        "success": "الآن ترين ما كان هناك دائماً.",
+        "failure": "انظري عبر الدخان لا إليه."
+      },
+      "9": {
+        "title": "بلاط الملكة الحمراء",
+        "intro": [
+          "كل الطرق هنا ملكي أنا!",
+          "الحصان يعطي كش أولاً والوزير يقول الكلمة الأخيرة."
+        ],
+        "success": "أصبح البلاط هادئاً وجميلاً.",
+        "failure": "الملكة صاخبة لكن نقلتك قد تكون أذكى."
+      },
+      "10": {
+        "title": "الوحش جابرووك",
+        "intro": [
+          "احذر الأنياب والمخالب!",
+          "ثلاث نقلات للأبيض. استمر بالكش واكتب النهاية."
+        ],
+        "success": "كش مات! مملكة المرآة أصبحت لك.",
+        "failure": "حتى التنين ليست له مخابئ كثيرة."
+      }
+    },
+    "hardcore": {
+      "taunts": [
+        "آه، أنا أراقب فقط. يا للعجب.",
+        "الساعة تحترق، ولست على عجلة من أمري.",
+        "تلميح؟ لن تسامحني الملكة أبداً."
+      ],
+      "win": [
+        "رأس من كنتم تريدون، بالضبط؟",
+        "أنحني لملكة المرآة الجديدة.",
+        "تاج ذهبي لمغامرة رائعة."
+      ],
+      "flourish": "اقطعوا رأسهم!"
+    },
+    "easy": {
+      "encouragement": [
+        "خذي وقتك يا أليس الفضولية، أنا هنا.",
+        "بدأت كل ملكة ذكية بنقلة صغيرة."
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "tweedles",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "tweedles",
+      "emotion": "talk"
+    },
+    {
+      "type": "move",
+      "actor": "tweedles",
+      "rotation": -8,
+      "x": -12,
+      "duration": 0.4
+    },
+    {
+      "type": "move",
+      "actor": "tweedles",
+      "rotation": 7,
+      "x": 6,
+      "duration": 0.4
+    },
+    {
+      "type": "say",
+      "actor": "tweedles",
+      "key": "chapters.3.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "tweedles",
+      "key": "chapters.3.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

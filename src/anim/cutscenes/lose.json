@@ -1,0 +1,66 @@
+{
+  "duration": "lose",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "cat",
+      "from": "left"
+    },
+    {
+      "type": "say",
+      "actor": "cat",
+      "key": "mistakeCat"
+    },
+    {
+      "type": "exit",
+      "actor": "cat",
+      "to": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "redQueen",
+      "from": "right"
+    },
+    {
+      "type": "move",
+      "actor": "redQueen",
+      "scale": 1.5,
+      "x": -70,
+      "duration": 0.6
+    },
+    {
+      "type": "emote",
+      "actor": "redQueen",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "actor": "redQueen",
+      "key": "lose.0"
+    },
+    {
+      "type": "shake"
+    },
+    {
+      "type": "sfx",
+      "name": "lose"
+    },
+    {
+      "type": "move",
+      "actor": "alice",
+      "scale": 0.45,
+      "y": 120,
+      "duration": 0.8
+    },
+    {
+      "type": "say",
+      "actor": "alice",
+      "key": "lose.1"
+    }
+  ]
+}

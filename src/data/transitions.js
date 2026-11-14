@@ -1,0 +1,2 @@
+export const transitionLabels={cards:'Card Shuffle Wipe',rabbit:'Rabbit-Hole Spiral',glass:'Through the Looking-Glass',curtain:'Theater Curtain',clock:'Clock Hands Sweep',ink:'Caterpillar’s Smoke',shatter:'Mirror Shatter',grin:'Cheshire Grin Iris',checker:'Chessboard Checker Dissolve',stomp:'Red Queen Stomp'};
+export const cues={cards:'card',rabbit:'whoosh',glass:'whoosh',curtain:'card',clock:'tick',ink:'hint',shatter:'shatter',grin:'win',checker:'card',stomp:'roar'};

@@ -1,0 +1,54 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "rabbit",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "rabbit",
+      "emotion": "talk"
+    },
+    {
+      "type": "move",
+      "actor": "rabbit",
+      "x": -80,
+      "y": -20,
+      "duration": 0.3
+    },
+    {
+      "type": "sfx",
+      "name": "tick"
+    },
+    {
+      "type": "move",
+      "actor": "rabbit",
+      "part": ".accessory",
+      "y": 50,
+      "rotation": 50,
+      "duration": 0.3
+    },
+    {
+      "type": "say",
+      "actor": "rabbit",
+      "key": "chapters.4.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "rabbit",
+      "key": "chapters.4.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

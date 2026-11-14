@@ -1,0 +1,49 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "flowers",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "flowers",
+      "emotion": "talk"
+    },
+    {
+      "type": "move",
+      "actor": "flowers",
+      "rotation": -8,
+      "x": -12,
+      "duration": 0.4
+    },
+    {
+      "type": "move",
+      "actor": "flowers",
+      "rotation": 7,
+      "x": 6,
+      "duration": 0.4
+    },
+    {
+      "type": "say",
+      "actor": "flowers",
+      "key": "chapters.2.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "flowers",
+      "key": "chapters.2.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

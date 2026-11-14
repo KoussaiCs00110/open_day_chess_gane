@@ -1,0 +1,47 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "hatter",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "hatter",
+      "emotion": "talk"
+    },
+    {
+      "type": "move",
+      "actor": "hatter",
+      "part": ".accessory",
+      "rotation": -28,
+      "x": 15,
+      "duration": 0.4
+    },
+    {
+      "type": "sfx",
+      "name": "pour"
+    },
+    {
+      "type": "say",
+      "actor": "hatter",
+      "key": "chapters.6.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "hatter",
+      "key": "chapters.6.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

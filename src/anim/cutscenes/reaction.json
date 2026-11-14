@@ -1,0 +1,50 @@
+{
+  "duration": "reaction",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "whiteQueen",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "redQueen",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "whiteQueen",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "success"
+    },
+    {
+      "type": "emote",
+      "actor": "redQueen",
+      "emotion": "angry"
+    },
+    {
+      "type": "move",
+      "actor": "redQueen",
+      "y": -12,
+      "duration": 0.2
+    },
+    {
+      "type": "move",
+      "actor": "redQueen",
+      "y": 0,
+      "duration": 0.2
+    },
+    {
+      "type": "shake"
+    },
+    {
+      "type": "exit",
+      "actor": "redQueen",
+      "to": "right"
+    }
+  ]
+}

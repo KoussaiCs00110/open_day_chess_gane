@@ -1,0 +1,47 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "jabberwock",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "jabberwock",
+      "emotion": "talk"
+    },
+    {
+      "type": "shake"
+    },
+    {
+      "type": "sfx",
+      "name": "roar"
+    },
+    {
+      "type": "emote",
+      "actor": "jabberwock",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "actor": "jabberwock",
+      "key": "chapters.10.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "jabberwock",
+      "key": "chapters.10.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Optional whole-asset overrides go here: `piece-white-queen.svg`, `character-alice.svg`, `background-garden.svg`, etc. Optional grouped character/piece replacements go in `parts/`, e.g. `character-alice--head.svg`. Keep SVG rig classes and viewBoxes. See the root ASSETS.md for exact keys and prompts. No replacement files are required; generated artwork is the default.

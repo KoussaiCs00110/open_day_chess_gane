@@ -1,0 +1,52 @@
+{
+  "duration": "intro",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "move",
+      "actor": "alice",
+      "x": 40,
+      "rotation": -6,
+      "duration": 0.5
+    },
+    {
+      "type": "say",
+      "actor": "alice",
+      "key": "intro.0"
+    },
+    {
+      "type": "camera",
+      "scale": 1.06,
+      "duration": 0.4
+    },
+    {
+      "type": "enter",
+      "actor": "whiteQueen",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "whiteQueen",
+      "emotion": "scared"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "intro.1"
+    },
+    {
+      "type": "say",
+      "actor": "whiteQueen",
+      "key": "intro.2"
+    },
+    {
+      "type": "camera",
+      "scale": 1,
+      "duration": 0.3
+    }
+  ]
+}

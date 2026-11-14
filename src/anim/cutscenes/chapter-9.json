@@ -1,0 +1,35 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "guards",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "guards",
+      "emotion": "talk"
+    },
+    {
+      "type": "say",
+      "actor": "guards",
+      "key": "chapters.9.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "guards",
+      "key": "chapters.9.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

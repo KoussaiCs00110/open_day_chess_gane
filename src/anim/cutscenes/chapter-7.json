@@ -1,0 +1,35 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "knight",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "knight",
+      "emotion": "talk"
+    },
+    {
+      "type": "say",
+      "actor": "knight",
+      "key": "chapters.7.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "knight",
+      "key": "chapters.7.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}

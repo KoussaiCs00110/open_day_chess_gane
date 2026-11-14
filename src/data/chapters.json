@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "character": "pawns",
+    "theme": "sky"
+  },
+  {
+    "id": 2,
+    "character": "flowers",
+    "theme": "garden"
+  },
+  {
+    "id": 3,
+    "character": "tweedles",
+    "theme": "garden"
+  },
+  {
+    "id": 4,
+    "character": "rabbit",
+    "theme": "forest"
+  },
+  {
+    "id": 5,
+    "character": "humpty",
+    "theme": "garden"
+  },
+  {
+    "id": 6,
+    "character": "hatter",
+    "theme": "tea"
+  },
+  {
+    "id": 7,
+    "character": "knight",
+    "theme": "forest"
+  },
+  {
+    "id": 8,
+    "character": "caterpillar",
+    "theme": "forest"
+  },
+  {
+    "id": 9,
+    "character": "guards",
+    "theme": "castle"
+  },
+  {
+    "id": 10,
+    "character": "jabberwock",
+    "theme": "castle"
+  }
+]

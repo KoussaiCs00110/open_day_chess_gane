@@ -1,0 +1,47 @@
+{
+  "duration": "chapter",
+  "steps": [
+    {
+      "type": "enter",
+      "actor": "alice",
+      "from": "left"
+    },
+    {
+      "type": "enter",
+      "actor": "caterpillar",
+      "from": "right"
+    },
+    {
+      "type": "emote",
+      "actor": "caterpillar",
+      "emotion": "talk"
+    },
+    {
+      "type": "move",
+      "actor": "caterpillar",
+      "part": ".smoke",
+      "y": -30,
+      "scale": 1.3,
+      "duration": 0.5
+    },
+    {
+      "type": "sfx",
+      "name": "hint"
+    },
+    {
+      "type": "say",
+      "actor": "caterpillar",
+      "key": "chapters.8.intro.0"
+    },
+    {
+      "type": "say",
+      "actor": "caterpillar",
+      "key": "chapters.8.intro.1"
+    },
+    {
+      "type": "emote",
+      "actor": "alice",
+      "emotion": "happy"
+    }
+  ]
+}
